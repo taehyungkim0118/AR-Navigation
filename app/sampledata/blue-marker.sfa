@@ -1,0 +1,43 @@
+{
+  materials: [
+    {
+      name: 'b0b0b0',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.65882399999999997,
+            0.83137300000000003,
+            0.99607800000000002,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.14280000000000001,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/blue-marker.obj',
+    name: 'blue-marker',
+    recenter: 'root',
+    scale: 0.76202599999999998,
+  },
+  version: '0.54:2',
+}

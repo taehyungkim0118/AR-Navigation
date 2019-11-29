@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/arVisibility"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <fragment
+            android:id="@+id/ux_fragment"
+            android:name="com.google.ar.sceneform.ux.ArFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_findadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="위치 검색" />
+
+    <Button
+        android:id="@+id/bt_in_or_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_findadd"
+        android:text="GPS : 실외" />
+
+    <Button
+        android:id="@+id/bt_startAR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/bt_findadd"
+        android:text="start AR"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/bt_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bt_startAR"
+        android:text="지도 화면"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/bt_findfac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/bt_findadd"
+        android:layout_alignParentRight="true"
+        android:text="주변 편의시설" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_gps" />
+
+    <FrameLayout
+        android:id="@+id/frameLayoutTmap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"></FrameLayout>
+
+</android.widget.RelativeLayout>

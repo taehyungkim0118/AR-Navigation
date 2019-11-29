@@ -1,0 +1,5 @@
+<resources>
+    <string name="tmap_api_key">"Your Tmap API Key"</string>
+    <string name="app_name">AR Navigation</string>
+    <string name="plane_finding">Searching for surfaces&#8230;</string>
+</resources>
