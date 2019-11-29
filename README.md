@@ -14,4 +14,4 @@
 
 ### 대표 이미지
 
-![20191125_222533](https://user-images.githubusercontent.com/58294301/69856478-16e82980-12d1-11ea-8548-6a5106bc714d.png)
+![드로잉1](https://user-images.githubusercontent.com/58294301/69856729-a1c92400-12d1-11ea-8c80-d6a778a9b39d.gif)
