@@ -1,10 +1,12 @@
 # 증강현실 내비게이션(AR Navigation)
 
-### 사용 기술
+### 사용 기술 및 기능
 
 * T Map API
 
 * ARCore
+
+* GPS
 
 ### 개발 환경
 
